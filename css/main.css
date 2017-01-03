@@ -1,0 +1,46 @@
+header {
+  /*did some custome font color*/
+  background-color: #111;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #252525;
+}
+
+header h1 {
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+header p {
+  margin-top: 0.5em;
+}
+
+.card {
+  border: 1px solid #E5E5E5;
+  margin-bottom: 20px;
+}
+
+.card-image {
+  width: 100%;
+}
+/*why is this at 100%, changed, noticed
+diff to image size. */
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-content p {
+  margin: 0.5em 0;
+}
